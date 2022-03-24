@@ -115,7 +115,7 @@ $(document).ready(function(){
         for(var i=0;i<teamList.length;i++){
             if($(this).find(".card-title").html()==teamList[i].teamName){
                 localStorage.setItem("teamDetails",JSON.stringify(teamList[i]));
-                location.assign("team/team.html");
+                location.assign("team/teams.html");
             }
         }
     })
